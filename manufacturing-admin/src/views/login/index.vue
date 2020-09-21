@@ -31,7 +31,7 @@
     </el-form>
 
     <div class="copyright">
-      Copyright © 2020 walrus.com 版权所有 <a href="http://www.beian.miit.gov.cn/publish/query/indexFirst.action">京ICP备16044936号-1</a>
+      Copyright © 2020 walrus-intelligent-manufacturing.com 版权所有 <a href="http://www.beian.miit.gov.cn/publish/query/indexFirst.action">京ICP备16044936号-1</a>
     </div>
   </div>
 </template>
