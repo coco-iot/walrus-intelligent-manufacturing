@@ -2,7 +2,7 @@
   <div class="login-container">
     <el-form ref="loginForm" :model="loginForm" :rules="loginRules" class="login-form" auto-complete="on" label-position="left">
       <div class="title-container">
-        <h3 class="title">walrus-manufacturing</h3>
+        <h3 class="title">海象智能制造</h3>
       </div>
       <el-form-item prop="username">
         <span class="svg-container">
@@ -22,7 +22,10 @@
 
       <div style="position:relative">
         <div class="tips">
-          <span>walrus-manufacturing</span>
+          <span>工业互联网标识节点解析</span>
+        </div>
+        <div class="tips">
+          <span>智能制造发展水平评估</span>
         </div>
       </div>
     </el-form>
