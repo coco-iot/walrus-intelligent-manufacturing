@@ -113,13 +113,13 @@ export const asyncRouterMap = [
   },
 
   {
-    path: '/mall',
+    path: '/industrial',
     component: Layout,
     redirect: 'noredirect',
     alwaysShow: true,
-    name: 'mallManage',
+    name: 'industrialManage',
     meta: {
-      title: '商场管理',
+      title: '工业互联网',
       icon: 'chart'
     },
     children: [
@@ -138,37 +138,7 @@ export const asyncRouterMap = [
         name: 'brand',
         meta: {
           perms: ['GET /admin/brand/list', 'POST /admin/brand/create', 'GET /admin/brand/read', 'POST /admin/brand/update', 'POST /admin/brand/delete'],
-          title: '品牌制造商',
-          noCache: true
-        }
-      },
-      {
-        path: 'category',
-        component: () => import('@/views/mall/category'),
-        name: 'category',
-        meta: {
-          perms: ['GET /admin/category/list', 'POST /admin/category/create', 'GET /admin/category/read', 'POST /admin/category/update', 'POST /admin/category/delete'],
-          title: '商品类目',
-          noCache: true
-        }
-      },
-      {
-        path: 'order',
-        component: () => import('@/views/mall/order'),
-        name: 'order',
-        meta: {
-          perms: ['GET /admin/order/list', 'GET /admin/order/detail', 'POST /admin/order/ship', 'POST /admin/order/refund', 'POST /admin/order/delete', 'POST /admin/order/reply'],
-          title: '订单管理',
-          noCache: true
-        }
-      },
-      {
-        path: 'aftersale',
-        component: () => import('@/views/mall/aftersale'),
-        name: 'aftersale',
-        meta: {
-          perms: ['GET /admin/aftersale/list', 'GET /admin/aftersale/detail', 'POST /admin/order/receive', 'POST /admin/aftersale/complete', 'POST /admin/aftersale/reject'],
-          title: '售后管理',
+          title: '标识节点解析',
           noCache: true
         }
       },
