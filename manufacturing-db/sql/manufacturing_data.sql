@@ -40,7 +40,7 @@ UNLOCK TABLES;
 
 LOCK TABLES `manufacturing_admin` WRITE;
 /*!40000 ALTER TABLE `manufacturing_admin` DISABLE KEYS */;
-INSERT INTO `manufacturing_admin` VALUES (1,'manufacturingadmin','$2a$10$jMClyMdyqlUWDFq7R/I4qeB8ylhIr/To6CdhkGNETFGYDslpJRz4i',NULL,NULL,'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif','2020-04-17 00:00:00','2020-04-17 00:00:00',0,'[1]'),(2,'manufacturing_promotion','$2a$10$jMClyMdyqlUWDFq7R/I4qeB8ylhIr/To6CdhkGNETFGYDslpJRz4i','',NULL,'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif','2020-04-17 15:16:59','2020-04-17 15:17:34',0,'[3]'),(3,'manufacturing_mall','$2a$10$jMClyMdyqlUWDFq7R/I4qeB8ylhIr/To6CdhkGNETFGYDslpJRz4i','',NULL,'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif','2020-04-17 15:17:25','2020-04-17 15:21:05',0,'[2]'),(4,'walrus','$2a$10$jMClyMdyqlUWDFq7R/I4qeB8ylhIr/To6CdhkGNETFGYDslpJRz4i','172.17.0.49','2020-04-13 03:14:57','https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif','2020-04-13 03:14:31','2020-04-13 03:14:57',0,'[1]');
+INSERT INTO `manufacturing_admin` VALUES (1,'manufacturingadmin','$2a$10$.6s4GqOsed0yCyuHSFC1YudtThjpWIh1JinYlP5TfPPLD7lv1PFlK',NULL,NULL,'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif','2020-04-17 00:00:00','2020-04-17 00:00:00',0,'[1]'),(2,'manufacturing_promotion','$2a$10$.6s4GqOsed0yCyuHSFC1YudtThjpWIh1JinYlP5TfPPLD7lv1PFlK','',NULL,'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif','2020-04-17 15:16:59','2020-04-17 15:17:34',0,'[3]'),(3,'manufacturing_mall','$2a$10$.6s4GqOsed0yCyuHSFC1YudtThjpWIh1JinYlP5TfPPLD7lv1PFlK','',NULL,'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif','2020-04-17 15:17:25','2020-04-17 15:21:05',0,'[2]'),(4,'walrus','$2a$10$.6s4GqOsed0yCyuHSFC1YudtThjpWIh1JinYlP5TfPPLD7lv1PFlK','172.17.0.49','2020-04-13 03:14:57','https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif','2020-04-13 03:14:31','2020-04-13 03:14:57',0,'[1]');
 /*!40000 ALTER TABLE `manufacturing_admin` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -339,7 +339,7 @@ UNLOCK TABLES;
 
 LOCK TABLES `manufacturing_user` WRITE;
 /*!40000 ALTER TABLE `manufacturing_user` DISABLE KEYS */;
-INSERT INTO `manufacturing_user` VALUES (1,'manufacturinguser','$2a$10$jMClyMdyqlUWDFq7R/I4qeB8ylhIr/To6CdhkGNETFGYDslpJRz4i',1,NULL,'2020-04-17 03:59:12','172.17.0.49',0,1,'manufacturinguser','','','','',0,'2019-04-20 22:17:43','2020-04-17 03:59:12',0);
+INSERT INTO `manufacturing_user` VALUES (1,'manufacturinguser','$2a$10$.6s4GqOsed0yCyuHSFC1YudtThjpWIh1JinYlP5TfPPLD7lv1PFlK',1,NULL,'2020-04-17 03:59:12','172.17.0.49',0,1,'manufacturinguser','','','','',0,'2019-04-20 22:17:43','2020-04-17 03:59:12',0);
 /*!40000 ALTER TABLE `manufacturing_user` ENABLE KEYS */;
 UNLOCK TABLES;
 
