@@ -133,9 +133,9 @@ export const asyncRouterMap = [
         }
       },
       {
-        path: 'brand',
+        path: 'nodeResolve',
         component: () => import('@/views/mall/brand'),
-        name: 'brand',
+        name: 'nodeResolve',
         meta: {
           perms: ['GET /admin/brand/list', 'POST /admin/brand/create', 'GET /admin/brand/read', 'POST /admin/brand/update', 'POST /admin/brand/delete'],
           title: '标识节点解析',
@@ -159,6 +159,80 @@ export const asyncRouterMap = [
         meta: {
           perms: ['GET /admin/keyword/list', 'POST /admin/keyword/create', 'GET /admin/keyword/read', 'POST /admin/keyword/update', 'POST /admin/keyword/delete'],
           title: '关键词',
+          noCache: true
+        }
+      }
+    ]
+  },
+
+  {
+    path: '/rhinoceros',
+    component: Layout,
+    redirect: 'noredirect',
+    alwaysShow: true,
+    name: 'rhinocerosManage',
+    meta: {
+      title: '犀牛智能评估',
+      icon: 'chart'
+    },
+    children: [
+      {
+        path: 'indicator',
+        component: () => import('@/views/mall/issue'),
+        name: 'indicator',
+        meta: {
+          perms: ['GET /admin/issue/list', 'POST /admin/issue/create', 'GET /admin/issue/read', 'POST /admin/issue/update', 'POST /admin/issue/delete'],
+          title: '指标管理',
+          noCache: true
+        }
+      },
+      {
+        path: 'corpType',
+        component: () => import('@/views/mall/issue'),
+        name: 'corpType',
+        meta: {
+          perms: ['GET /admin/issue/list', 'POST /admin/issue/create', 'GET /admin/issue/read', 'POST /admin/issue/update', 'POST /admin/issue/delete'],
+          title: '类型指标',
+          noCache: true
+        }
+      },
+      {
+        path: 'question',
+        component: () => import('@/views/mall/brand'),
+        name: 'question',
+        meta: {
+          perms: ['GET /admin/brand/list', 'POST /admin/brand/create', 'GET /admin/brand/read', 'POST /admin/brand/update', 'POST /admin/brand/delete'],
+          title: '题库',
+          noCache: true
+        }
+      },
+      {
+        path: 'corporate',
+        component: () => import('@/views/mall/keyword'),
+        name: 'corporate',
+        meta: {
+          perms: ['GET /admin/keyword/list', 'POST /admin/keyword/create', 'GET /admin/keyword/read', 'POST /admin/keyword/update', 'POST /admin/keyword/delete'],
+          title: '企业管理',
+          noCache: true
+        }
+      },
+      {
+        path: 'assessment',
+        component: () => import('@/views/mall/keyword'),
+        name: 'assessment',
+        meta: {
+          perms: ['GET /admin/keyword/list', 'POST /admin/keyword/create', 'GET /admin/keyword/read', 'POST /admin/keyword/update', 'POST /admin/keyword/delete'],
+          title: '企业评估管理',
+          noCache: true
+        }
+      },
+      {
+        path: 'assessmentResult',
+        component: () => import('@/views/mall/keyword'),
+        name: 'assessmentResult',
+        meta: {
+          perms: ['GET /admin/keyword/list', 'POST /admin/keyword/create', 'GET /admin/keyword/read', 'POST /admin/keyword/update', 'POST /admin/keyword/delete'],
+          title: '企业评估结果',
           noCache: true
         }
       }
