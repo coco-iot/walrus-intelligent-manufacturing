@@ -198,7 +198,10 @@ export const asyncRouterMap = [
       },
       {
         path: 'http://101.200.34.227:8087/rhinoceros/index.html',
-        meta: { title: '题库', icon: 'link' }
+        meta: {
+          title: '题库',
+          icon: 'link'
+        }
       },
       {
         path: 'corporate',
