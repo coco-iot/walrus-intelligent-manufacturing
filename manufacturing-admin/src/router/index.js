@@ -197,14 +197,8 @@ export const asyncRouterMap = [
         }
       },
       {
-        path: 'question',
-        component: () => import('@/views/mall/brand'),
-        name: 'question',
-        meta: {
-          perms: ['GET /admin/brand/list', 'POST /admin/brand/create', 'GET /admin/brand/read', 'POST /admin/brand/update', 'POST /admin/brand/delete'],
-          title: '题库',
-          noCache: true
-        }
+        path: 'http://101.200.34.227:8087/rhinoceros/index.html',
+        meta: { title: '题库', icon: 'link' }
       },
       {
         path: 'corporate',
